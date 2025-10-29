@@ -8,10 +8,10 @@ dotenv.config();
 const uri = process.env.MONGO_URI
 const cliente = new MongoClient(uri);
 
-export async function connection() {
+export async function connection(data) {
     try {
         await cliente.connect();
-        const collection = cliente.db(process.env.MONGO_INITDB_DATABASE).collection('menu');
+        const collection = cliente.db(process.env.MONGO_INITDB_DATABASE).collection(data);
         return collection;
     } catch (ex) {
         console.log(ex.message);
