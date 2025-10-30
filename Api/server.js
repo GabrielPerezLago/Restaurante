@@ -22,6 +22,8 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
+//Menus
+
 app.get('/menu', async (req, res) => {
     try {
         const tareas = await getMenus();
@@ -31,6 +33,12 @@ app.get('/menu', async (req, res) => {
         res.status(500).json({error : ex.message});
     }
 });
+
+
+// Productos 
+
+
+// Mesa
 
 app.listen(PORT, () => {
     console.log(`Servidor corriendo en http://localhost:${PORT}`);
