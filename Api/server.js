@@ -3,6 +3,7 @@ import dotenv from "dotenv";
 import cors from "cors";
 import { getMenus } from "./Models/menu.js";
 import { exec } from "child_process";
+import { getMesas } from "./Models/mesaModel.js";
 
 dotenv.config();
 
@@ -39,6 +40,15 @@ app.get('/menu', async (req, res) => {
 
 
 // Mesa
+
+app.get(`/mesa`, async (req, res) => {
+    try {
+        const mesas = await getMesas();
+        res.json(mesas);
+    } catch(ex) {
+        res.status(500).json({error: ex.message});
+    }
+});
 
 app.listen(PORT, () => {
     console.log(`Servidor corriendo en http://localhost:${PORT}`);

@@ -5,7 +5,7 @@ export default {
       type: 'dateFile',
       filename: 'logs/app',
       pattern: 'yyyy-MM-dd.log',
-      compress: false,  // Comprime logs antiguos
+      compress: true,  // Comprime logs antiguos
       daysToKeep: 7    // Guarda solo los últimos 7 días
     }
   },

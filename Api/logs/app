@@ -1,0 +1,19 @@
+[2025-10-30T17:06:41.660] [ERROR] default - 'caller', 'callee', and 'arguments' properties may not be accessed on strict mode functions or the arguments objects for calls to them
+[2025-10-30T17:06:50.276] [ERROR] default - 'caller', 'callee', and 'arguments' properties may not be accessed on strict mode functions or the arguments objects for calls to them
+[2025-10-30T17:08:20.816] [ERROR] default - 'caller', 'callee', and 'arguments' properties may not be accessed on strict mode functions or the arguments objects for calls to them
+[2025-10-30T17:08:33.870] [INFO] default - Entrando ha getMesas()
+[2025-10-30T17:09:03.915] [ERROR] default - Cannot read properties of undefined (reading 'find')
+[2025-10-30T17:12:29.348] [INFO] default - Entrando ha getMesas()
+[2025-10-30T17:12:59.395] [ERROR] default - Cannot read properties of undefined (reading 'find')
+[2025-10-30T17:18:42.101] [INFO] default - Entrando ha getMenus() 
+[2025-10-30T17:19:12.121] [ERROR] default - Cannot read properties of undefined (reading 'find')
+[2025-10-30T17:20:07.252] [ERROR] default - Cannot read properties of undefined (reading 'find')
+[2025-10-30T17:28:05.989] [INFO] default - Entrando ha getMenus()
+[2025-10-30T17:28:36.038] [ERROR] default - Cannot read properties of undefined (reading 'find')
+[2025-10-30T17:30:16.991] [INFO] default - Entrando ha getMenus()
+[2025-10-30T17:30:17.137] [INFO] default - Resultado correcto resutlado de base de datos. respose : [object Object],[object Object],[object Object]
+[2025-10-30T17:30:36.979] [INFO] default - Entrando ha getMenus()
+[2025-10-30T17:30:36.989] [INFO] default - Resultado correcto resutlado de base de datos. respose : [object Object],[object Object],[object Object]
+[2025-10-30T17:31:48.896] [INFO] default - Entrando ha getMesas()
+[2025-10-30T17:32:02.285] [INFO] default - Entrando ha getMesas()
+[2025-10-30T17:32:02.387] [INFO] default - Resultado correcto resutlado de base de datos. Devolviendo Mesas ...
